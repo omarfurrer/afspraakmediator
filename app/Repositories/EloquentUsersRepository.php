@@ -36,6 +36,7 @@ class EloquentUsersRepository extends EloquentAbstractRepository implements User
      */
     public function update($id, array $fields = array())
     {
+
         if (!empty($fields['password'])) {
             $fields['password'] = bcrypt($fields['password']);
         }
