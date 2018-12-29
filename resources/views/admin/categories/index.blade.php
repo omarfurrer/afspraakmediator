@@ -36,7 +36,7 @@
                                     <i class="fa fa-edit"></i>
                                 </a>
                                 <a class="btn btn-danger" href="#"
-                                   onclick="return deleteModel(event,'delete-form-{{$category->id}}', 'Are you sure you want to delete this content block ? All related data will be lost');">
+                                   onclick="return deleteModel(event,'delete-form-{{$category->id}}', 'Are you sure you want to delete this category ? ALL COMPANIES UNDER THIS CATEGORY WILL BE DELETED');">
                                     <i class="fa fa-trash-o"></i>
                                 </a>
                                 @include("subviews.components.delete_form",["id"=>$category->id, "action"=> url("admin/categories/". $category->id )])
