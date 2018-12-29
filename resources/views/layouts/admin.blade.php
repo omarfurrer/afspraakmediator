@@ -59,6 +59,8 @@ $(function () {
         theme: 'fontawesome-stars',
         readonly: true
     });
+    
+    $('.select2').select2();
 });
         </script>
 

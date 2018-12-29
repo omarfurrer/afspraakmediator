@@ -19,6 +19,8 @@ try {
     // A theme is also required
     require('tinymce/themes/modern/theme');
     require('jquery-bar-rating');
+    
+    require('select2/dist/js/select2.full.js');
 } catch (e) {
 }
 

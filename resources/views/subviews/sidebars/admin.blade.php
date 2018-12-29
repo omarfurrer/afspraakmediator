@@ -7,6 +7,11 @@
                 </a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="/admin/companies">
+                    <i class="nav-icon icon-briefcase"></i> Companies
+                </a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="/admin/categories">
                     <i class="nav-icon icon-list"></i> Categories
                 </a>
