@@ -4,20 +4,22 @@
 
 <!-- Home background sector --> 
 <div class="absolute-wrapper homeBgContainer">
-	<div class="container-fluid">
-		<div class="row text-center homeHeaderRow">
-			<div class="col-md-12">
-				<h1>Translator Translations</h1>
-			</div>
-			<div class="col-md-12">
-				<h4>Professional translations at affordable prices</h4>
-			</div> 
-			<div class="col-md-12">
-				<button class="btn btn-success" id="ctaHomePg">GET A QUOTATION</button>
-			</div>   
+</div>
+
+<div class="container-fluid">
+	<div class="row text-center homeHeaderRow">
+		<div class="col-md-12">
+			<h1>Translator Translations</h1>
 		</div>
+		<div class="col-md-12">
+			<h4>Professional translations at affordable prices</h4>
+		</div> 
+		<div class="col-md-12">
+			<a class="btn btn-success" href="#myForm" id="ctaHomePg">GET A QUOTATION</a>
+		</div>   
 	</div>
 </div>
+
 <!-- Video sector --> 
 
 <div class="container vidContainer">
@@ -41,6 +43,9 @@
 		</div>
 	</div>
 </div>
+
+
+@include("subviews.contactForm._main")
 
 <!-- panoramaImg sector --> 
 
@@ -217,11 +222,11 @@
 	<div class="container">
 		<div class="row">			
 			<div class="col-md-9">
-              <h3>Start your translation at Translation Agency Scriptware</h3>
+				<h3>Start your translation at Translation Agency Scriptware</h3>
 			</div>
-             
+
 			<div class="col-md-3">
-              <button class="btn ctaFillLess">GET A QUOTATION</button>
+				<a class="btn ctaFillLess" href="#myForm">GET A QUOTATION</a>
 			</div>
 		</div>
 	</div>  
