@@ -71,7 +71,7 @@
             <a class="nav-link myNavItem" href="#">ABOUT US <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link myNavItem" href="#">CONTACT US <span class="sr-only">(current)</span></a>
+            <a class="nav-link myNavItem" href="{{ url('/contact-us') }}">CONTACT US <span class="sr-only">(current)</span></a>
         </li> 
         <li class="nav-item">
             <a class="nav-link myNavItem" href="#">HOW IT WORKS <span class="sr-only">(current)</span></a>
