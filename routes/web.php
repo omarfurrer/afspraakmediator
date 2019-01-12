@@ -28,5 +28,6 @@ Route::prefix('admin')->namespace('Admin')->middleware('auth', 'role:admin')->gr
     Route::resource('/articles', 'ArticlesController');
     Route::resource('/reviews', 'ReviewsController');
     Route::resource('/companies', 'CompaniesController');
+    Route::resource('/requests', 'RequestsController');
 });
 
