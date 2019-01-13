@@ -23,14 +23,14 @@
                 <div class="dropdown-menu myDropMenu" aria-labelledby="navbarDropdown">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6" style="border-right: 1px solid rgb(172, 172, 172)">
+                            <div class="col-md-6 dropdownCol" style="border-right: 1px solid rgb(172, 172, 172)">
                               <a class="dropdown-item myDropItem" href="#">PRODUCT 1</a>
                               <a class="dropdown-item myDropItem" href="#">PRODUCT 2</a>
                               <a class="dropdown-item myDropItem" href="#">PRODUCT 3</a>
                               <a class="dropdown-item myDropItem" href="#">PRODUCT 3</a>
                               <a class="dropdown-item myDropItem" href="#">PRODUCT 3</a>
                           </div>
-                          <div class="col-md-6">
+                          <div class="col-md-6 dropdownCol">
                               <a class="dropdown-item myDropItem" href="#">PRODUCT 1</a>
                               <a class="dropdown-item myDropItem" href="#">PRODUCT 2</a>
                               <a class="dropdown-item myDropItem" href="#">PRODUCT 3</a>
@@ -48,14 +48,14 @@
                 <div class="dropdown-menu myDropMenu" aria-labelledby="navbarDropdown">
                     <div class="container">
                         <div class="row">
-                            <div class="col-md-6" style="border-right: 1px solid rgb(172, 172, 172)">
+                            <div class="col-md-6 dropdownCol" style="border-right: 1px solid rgb(172, 172, 172)">
                               <a class="dropdown-item myDropItem" href="#">CITY 1</a>
                               <a class="dropdown-item myDropItem" href="#">CITY 2</a>
                               <a class="dropdown-item myDropItem" href="#">CITY 3</a>
                               <a class="dropdown-item myDropItem" href="#">CITY 3</a>
                               <a class="dropdown-item myDropItem" href="#">CITY 3</a>
                           </div>
-                          <div class="col-md-6">
+                          <div class="col-md-6 dropdownCol">
                               <a class="dropdown-item myDropItem" href="#">CITY 1</a>
                               <a class="dropdown-item myDropItem" href="#">CITY 2</a>
                               <a class="dropdown-item myDropItem" href="#">CITY 3</a>

@@ -90,9 +90,11 @@ body {
 .brandPar {
 	font-size: x-small;
 
-	/*/////END OF footer STYLES//////////*/
-
 }
+
+/*/////END OF footer STYLES//////////*/
+
+
 /*Navbar styles*/
 
 .myNav.scrolled {
@@ -156,6 +158,11 @@ body {
 .dropdown:hover .dropdown-menu {
 	display: block;
 	margin-top: 0; // remove the gap so it doesn't close
+}
+
+.dropdownCol {
+	padding: 0;
+	text-align: center;
 }
 
 
