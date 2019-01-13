@@ -28,7 +28,7 @@ class AdminUsersSeeder extends Seeder {
     public function run()
     {
         $this->usersService->create('Omar Furrer', 'omar.furrer@gmail.com', '123456', ['admin']);
-        $this->usersService->create('Vincent De Vries', 'mailvinnifirst@gmail.com', '123456', ['admin']);
+        $this->usersService->create('Vincent De Vries', 'vincentmaar@gmail.com', '123456', ['admin']);
     }
 
 }
